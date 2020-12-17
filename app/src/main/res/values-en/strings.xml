@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Resources</string>
+    <string name="Opcion1">Option 1</string>
+    <string name="Opcion2">Option 2</string>
+    <string name="Opcion3">Option 3</string>
+    <string name="Opcion4">Option 4</string>
+    <string name="Siguiente">Next</string>
+    <string name="metodo1">Method 1</string>
+    <string name="metodo2">Method 2</string>
+</resources>

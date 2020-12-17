@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/configuracion"
+        android:title="Configuracion"
+        android:icon="@android:drawable/ic_lock_idle_alarm"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/nuevo"
+        android:title="Nuevo"
+        android:icon="@android:drawable/ic_dialog_alert"
+        app:showAsAction="always"
+        android:orderInCategory="2">
+    </item>
+    <item
+        android:id="@+id/buscar"
+        android:title="Buscar"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="3">
+    </item>
+    <item android:id="@+id/botonArriba"
+        android:title="atras"
+        android:icon="@android:drawable/arrow_up_float"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1">
+
+    </item>
+</menu>
